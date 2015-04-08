@@ -57,8 +57,11 @@ public partial class fm_customer : System.Web.UI.Page
         arr.Add(new cArrayList("@ActCD", txtActCD.Text));
         arr.Add(new cArrayList("@CreateDT", txtCreateDT.Text));
         arr.Add(new cArrayList("@distance", txtdistance.Text));
-        
+        arr.Add(new cArrayList("@identityID", txtidentityID.Text));
+        arr.Add(new cArrayList("@identityExpireDate", txtidentityExpireDate.Text));
+        arr.Add(new cArrayList("@identitySignature", txtidentitySignature.Text));
         bll.vinsertMstCustomer(arr);
+        Response.Redirect("fm_customerlist.aspx");
        
     }
 }

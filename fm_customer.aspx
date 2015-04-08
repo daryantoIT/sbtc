@@ -170,22 +170,28 @@
             <td class="auto-style13">
                 <asp:TextBox ID="txtdistCD" runat="server" Width="247px"></asp:TextBox>
             </td>
-            <td class="auto-style6">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
+            <td class="auto-style6">ID NO</td>
+            <td class="auto-style11">
+                <asp:TextBox ID="txtidentityID" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style16">Country</td>
             <td class="auto-style13">
                 <asp:TextBox ID="txtCountry" runat="server" Width="247px"></asp:TextBox>
             </td>
-            <td class="auto-style6">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
+            <td class="auto-style6">Expire Date ID</td>
+            <td class="auto-style11">
+                <asp:TextBox ID="txtidentityExpireDate" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style16">&nbsp;</td>
             <td class="auto-style13">&nbsp;</td>
-            <td class="auto-style6">&nbsp;</td>
-            <td class="auto-style11">&nbsp;</td>
+            <td class="auto-style6">Signature</td>
+            <td class="auto-style11">
+                <asp:TextBox ID="txtidentitySignature" runat="server"></asp:TextBox>
+            </td>
         </tr>
         <tr>
             <td class="auto-style16">Market</td>
