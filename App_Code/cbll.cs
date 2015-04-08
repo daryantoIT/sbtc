@@ -12,6 +12,10 @@ using System.Net.Mail;
     {
         cdal dal = new cdal();
 
+        public void vinsertMstCustomer(List<cArrayList> arr)
+        {
+            dal.vExecuteSP("sp_tmst_customer_ins",arr);
+        }
         public void vInsertUserProfile(List<cArrayList> arr)
         {
             dal.vExecuteSP("sp_tuser_profile_ins", arr);
