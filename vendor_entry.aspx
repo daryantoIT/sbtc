@@ -74,9 +74,7 @@
             <td style="text-align: left">
                City</td>
             <td>:</td>
-            <td>
-                <asp:DropDownList ID="cbcity" runat="server"></asp:DropDownList>
-            </td>
+            
         </tr>
          <tr style="text-align: left">
             <td style="text-align: left" class="auto-style1">

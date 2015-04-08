@@ -32,4 +32,5 @@ public partial class vendor_entry : System.Web.UI.Page
         arr.Add(new cArrayList("@post_code", txpostcode.Text));
 
     }
+   
 }
